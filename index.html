@@ -1,58 +1,85 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Emdad</title>
-</head>
-<body style="background-color:#ffffff;">
-	<h1 title="This is header" style="color:red;">HTML Tutorial Link</h1>
-	<hr>
-	<p title="This is a paragraph">If you want to learn html, clik on the link.</p>
-	<a href="https://www.w3schools.com/html/html_basic.asp" style="color:blue;">This is the link</a>
-	<p><br><br>This is your photo.</p>
-	<hr>
-	<img src="emdad.jpg", alt="Md Emdadul Haque", width="400", height="400" <br>>
-	<hr>
-	<p><a href="#Pp">Proposal</a></p>
-	<h1 style="text-align:center;">Poem</h1>
-	<hr>
-	<pre style="background-color:lightpink; font-family:Times new roman; color:blue; font-size:20px; text-align:center;">
-	<i>Hello, This is e new project,</i>
+    <head>
+        <title>Exercise</title>
+        <!--<style>
+            body {background-color: rgb(205, 221, 223); font-family: 'Times New Roman';}
+            h1 {color:red}
+        </style>
+        -->
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style_01.css">
+    </head>
 
-	<b>I am trying to making it.</b>
+<body>
+    <h1 style="border:2px solid rgb(152, 196, 233); padding:10px; margin-right: 900px;">Hello! I am learning again.</h1>
+    <p title="I am a toolkit">This is a paragraph</p>
+    <h3><a href="#f2">Linkedin</a></h3>
+    <h3><a href="#f1">Facebook</a></h3><br>
+    <br>
+    <img src="emdad.jpg" alt="Md Emdadul Haque" width="200" height="200">
+    <hr>
 
-	<strong>But can not find a proper subject.</strong>
+    <pre style="background-color:rgba(124, 189, 210, 0.7); font-family:'Times New Roman'; color: rgb(210, 33, 33); font-size: 20px; text-align:center;">
+        <b>This is bold line</b>
+        <i>This is italic line</i>
+        <strong>This is a string line</strong>
+        <em style="font-size: 30px;">This is a emphasized line</em>
+        <small>This is a small line</small>
+        My name is <mark>Md Emdadul Haque</mark> and I marked my name.
+        this word is <del>delete</del> and <ins>inserted</ins>
+        H<sub>2</sub>SO<sub>4</sub> and 10<sup>2</sup>=100
 
-	<em>There have a new site.</em>
-	</pre>
-	<br>
-	<br>
-	<hr>
-	<p>I am normal.</p>
-	<p style="color:red;">I am red.</p>
-	<p style="color:blue;">I am blue.</p>
-	<p style="font-size:50px;">I am big.</p>
-	<hr>
-	<p><small>This text is small.</small></p>
-	<p><mark>This text is mark.</mark></p>
-	<p>Hello, I am Md Emdadul Haque and I want to <del>delete</del> it.</p>
-	<p>This is a inserted and bold line. <ins style="color:red;"><b>Md Emdadul Haque</b></ins></p>
-	<p>There have a equation, (a+b)<sup>2</sup>=a<sup>2</sup>+2ab+b<sup>2</sup>. 
-	And there have a symbol of sulfuric acid, H<sub>2</sub>SO<sub>4</sub>.</p>
-	
-	<blockquote cite="https://www.w3schools.com/html/html_quotation_elements.asp"><h1>HTML for Quotation</h1>
-	The <abbr title="Hyper Text Markup Language">HTML</abbr> element defines a section that is quoted from another source.
-	Browsers usually indent elements. For 60 years, <q>WWF has worked to help people and nature thrive</q>.
-	As the world's leading conservation organization, WWF works in nearly 100 countries. At every level,
-	we Collaborate with people around the world to develop and deliver innovative solutions that
-	protect communities, wildlife, and the places in which they live.</blockquote>
+    </pre>
 
-	<p>Details of Md Emdadul Haque <br>
-	<address>Address: 2no. Koyra, Madinabad, Koyra, Khulna, Bangladesh.<br>
-	Mobile: 01963468280<br>
-	Email: <a href="mailto:emdad6344@gmail.com">emdad6344@gmail.com</a><br></address></p>
+    <blockquote cite="https://en.banglapedia.org/index.php?title=Bangladesh_Geology">
+        Bangladesh Geology The country occupies major part of the <q>BENGLA DELTA</q>, one of the largest in the world.
+        The GANGES-BRAHMAPUTRA DELTA basin or BENGAL BASIN includes part of the Indian state of West Bengal in 
+        the west and <cite>Tripura</cite> in the east. <abbr title="Geographic Information System">GIS</abbr> and 
+        Remote Sensing is very import for Geology. It is generelly used in spatial data analysis and also used in Machine Learning. 
 
-	<p id="Pp">This proposal has been written by <cite>Md Emdadul Haque</cite>.</p>
-	<p><bdo dir="rtl">This is a line.</bdo></p>
+    </blockquote>
+    
+    <address>
+        Md Emdadul Haque<br>
+        Vist us at:<br>
+        emdad6344@gmail.com<br>
+        University of Barishal<br>
+    </address>
+    <bdo dir="rtl">This is a bdo</bdo> 
+    <br>
+    <br>
+    
+    <a href="https://www.w3schools.com/html/html_links.asp" target="_blank">Blank W3School</a><br>
+    <a href="https://www.w3schools.com/html/html_links.asp" target="_top">Top W3School</a><br>
+    <a href="https://www.w3schools.com/html/html_links.asp" target="_parent">Parent W3School</a>
+    <br><br>
+    <a href="https://www.w3schools.com/" target="_blank">
+        <img src="w3logo.png" alt="W3schools Tutorial" style="width:40px; height:40px;">
+    </a><hr>
+    <a href="mailto:emdad6344@gmail.com" target="_parent" title="Send an Email to Md Emdadul Haque">
+        <img src="gmail_logo.png" alt="Email" style="width:40px; height:40px">
+    </a><br>
+    <button onclick="document.location='https://www.w3schools.com/'">
+    HTML Tutorial</button><br>
+
+    <button onclick="document.location='index1.html'" title="Emdad's Personal Website" 
+    style="background-color: rgb(139, 204, 231); color:red; border-color: rgb(139, 204, 231);">
+    Button for Emdad</button><br><br>
+
+    <a href="index1.html" target="_blank" title="Emdad's Personal Website">
+        Emdad
+    </a><hr>
+    <br>
+    <a id="f2" href="https://www.linkedin.com/in/md-emdadul-haque-0744b919b/" target="_blank" title="Emdad's Linkedin Profile">
+        Linkedin
+    </a>
+    <br>
+    <a id="f1" href="https://web.facebook.com/emdad6344/" target="_blank" title="Emdad's Facebook Profile">
+        Facebook
+    </a><br><br>
+
+
 
 </body>
-<html>
+</html>

@@ -1,0 +1,5 @@
+table, th, td {
+    border-style: inset;
+    border-color: rgb(79, 220, 204);
+    border-collapse: collapse;  
+}
